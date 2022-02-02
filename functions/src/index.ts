@@ -17,12 +17,12 @@ export const cdsServices = functions.https.onRequest((request, response) => {
   functions.logger.info("Hello CDS Service logs!", {structuredData: true});
   corsHandler(request, response, () => {
     response.send(services);
-  })
+  });
 });
 
 export const staticPatientView = functions.https.onRequest((request, response) => {
   functions.logger.info("Hello PatientView logs!", {structuredData: true});
   corsHandler(request, response, () => {
     response.send(patientView);
-  })
+  });
 });
