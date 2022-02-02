@@ -8,6 +8,10 @@
     ],
     "rewrites": [
       {
+        "source": "cds-services",
+        "function": "cdsServices"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
