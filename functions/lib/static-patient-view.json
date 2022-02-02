@@ -1,0 +1,20 @@
+{
+    "cards": [
+        {
+            "summary": "SMART App Success Card",
+            "indicator": "success",
+            "detail": "This is an example SMART App success card.",
+            "source": {
+                "label": "Static CDS Service Example",
+                "url": "https://emerge-cds-hooks.web.app"
+            },
+            "links": [
+                {
+                    "label": "SMART Example App",
+                    "url": "https://emerge-cds-hooks.web.app",
+                    "type": "smart"
+                }
+            ]
+        }
+    ]
+}

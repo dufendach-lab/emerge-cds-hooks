@@ -12,6 +12,10 @@
         "function": "cdsServices"
       },
       {
+        "source": "static-patient-view",
+        "function": "staticPatientView"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
