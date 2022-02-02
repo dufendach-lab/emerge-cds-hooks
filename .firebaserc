@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "emerge-cds-hooks": {
+      "hosting": {
+        "emerge-cds-hooks": [
+          "emerge-cds-hooks"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "emerge-cds-hooks"
+  }
+}
