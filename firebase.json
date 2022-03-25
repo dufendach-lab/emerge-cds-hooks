@@ -8,11 +8,11 @@
     ],
     "rewrites": [
       {
-        "source": "cds-services",
+        "source": "/cds-services",
         "function": "cdsServices"
       },
       {
-        "source": "cds-services/static-patient-view",
+        "source": "/cds-services/static-patient-view",
         "function": "staticPatientView"
       },
       {
